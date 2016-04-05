@@ -9,12 +9,12 @@ module.exports = {
     publicPath: 'static'
   },
   module: {
-    preLoaders: [
-      {
-        test: /\.js$/,
-        loader: 'eslint',
-      }
-    ],
+    // preLoaders: [
+    //   {
+    //     test: /\.js$/,
+    //     loader: 'eslint',
+    //   }
+    // ],
     loaders: [
       {
         test: /\.js$/,

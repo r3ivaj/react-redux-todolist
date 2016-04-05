@@ -1,8 +1,19 @@
-import React from "react"
+/*
+/* Module dependencies
+ */
+import React from 'react'
+import Footer from './Footer'
+import VisibleTodoList from '../containers/VisibleTodoList'
+import AddTodo from '../containers/AddTodo'
 
 class App extends React.Component {
   render() {
-    return <h1>Hello world!</h1>
+    return (
+      <div>
+        <AddTodo />
+        <VisibleTodoList />
+      </div>
+    )
   }
 }
 

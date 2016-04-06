@@ -7,6 +7,7 @@
     "url": "https://github.com/r3ivaj/react-redux-todolist.git"
   },
   "scripts": {
+    "clean": "rimraf public/dist",
     "start": "node webpack/devServer.js",
     "lint-js": "eslint src"
   },
